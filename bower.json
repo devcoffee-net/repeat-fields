@@ -1,0 +1,38 @@
+{
+  "name": "fields-repeat",
+  "version": "1.0.0",
+  "title": "jQuery Fields Repeat",
+  "description": "Fields Repeat is a jQuery plugin which let's you create a set of fields that can be made to repeat.",
+  "keywords": [
+    "jquery plugin",
+    "jquery fields-repeat",
+    "jquery fields",
+    "jquery rows"
+  ],
+  "homepage": "https://github.com/devcoffee-net/repeat-fields",
+  "author": {
+    "name": "Hieu Nguyen",
+    "url": "http://www.devcoffee.net"
+  },
+  "maintainers": [
+    {
+      "name": "Hieu Nguyen",
+      "url": "http://www.devcoffee.net"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devcoffee-net/repeat-fields.git"
+  },
+  "bugs": "https://github.com/blueimp/devcoffee-net/repeat-fields/issues",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.9.0",
+    "jquery-ui": ">=1.10.3"
+  },
+  "main": [
+    "fields-repeater.js"
+  ],
+  "ignore": [
+  ]
+}
