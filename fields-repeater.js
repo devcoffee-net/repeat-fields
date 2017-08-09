@@ -1,6 +1,6 @@
 /*
  * jQuery Repeat Fields v1.0.0
- * http://www.rhyzz.com/repeatable-fields.html
+ * https://github.com/devcoffee-net/repeat-fields
  *
  * Copyright (c) 2017 Hieu Nguyen
  * License MIT
@@ -87,7 +87,10 @@
                     var row = $(this).parents(settings.row).first();
 
                     if (typeof settings.before_remove === 'function') {
-                        settings.before_remove(container, row);
+                        switch (settings.before_remove(container, row)){
+                            case false:
+                                return;
+                        }
                     }
 
                     row.remove();

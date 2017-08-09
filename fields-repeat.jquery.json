@@ -1,0 +1,28 @@
+{
+  "name": "fields-repeat",
+  "version": "1.0.0",
+  "title": "Fields Repeat",
+  "author": {
+    "name": "Hieu Nguyen",
+    "url": "http://www.devcoffee.net"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.0",
+    "jquery-ui": ">=1.10.3"
+  },
+  "description": "Fields Repeat is a jQuery plugin which let's you create a set of fields that can be made to repeat.",
+  "keywords": [
+    "fields-repeat",
+    "dynamic-fields",
+    "dynamic-rows"
+  ],
+  "homepage": "https://github.com/devcoffee-net/repeat-fields",
+  "download": "https://github.com/devcoffee-net/repeat-fields",
+  "bugs": "https://github.com/devcoffee-net/repeat-fields/issues"
+}
